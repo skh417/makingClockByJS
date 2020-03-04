@@ -20,7 +20,15 @@
 			cursor: pointer;
 		}
 	</style> 
--->	
+-->	 
+<style type="text/css">
+	h1 {
+		border: inset 10px #3498db;
+		margin: 100px 220px;
+		padding: 20px;
+		color: #c0392b;
+	}
+</style>
 
 </head>
 <body>
@@ -29,13 +37,25 @@
 
 
 	<div class="js-clock">
-		<h1>00:00:00</h1>
-	</div>
+		<h1 style="text-align: center;">00:00:00</h1>
+	</div> 
 
+	<form class="js-form">
+		<input type="text" placeholder="What's your fuxking name?" size="26">
+	</form>
+	<br>
+	<form class="js-toDoForm">
+		<input type="text" placeholder="Write a to do" />
+	</form>
+	<ul class="js-toDoList">
+		
+	</ul>
 
 
 
 
 	<script type="text/javascript" src="clock.js"></script> 
+	<script type="text/javascript" src="to-do-list.js"></script>
+	<script type="text/javascript" src="greeting.js"></script>
 </body>
 </html>
